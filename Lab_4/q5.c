@@ -10,7 +10,7 @@ int main()
     scanf("%d", &status);
     printf("Enter security level : ");
     scanf("%d", &security_level);
-    if (status == 0)
+    if (!status)
         printf("access denied.\n");
     else
     {
